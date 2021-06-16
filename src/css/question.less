@@ -75,3 +75,49 @@
     }
   }
 }
+
+//table styling
+.table {
+  padding: 0 0 20px;
+
+  text-align: center;
+
+  @media @tablet {
+    // .flex (0, 0, 2);
+    display: flex;
+  }
+}
+
+.row {
+  flex-wrap: wrap;
+  display: flex;
+  border: 1px solid @df-border-gray;
+
+  @media @tablet {
+    display: block;
+    width: 50%;
+  }
+}
+
+.table-cell {
+  .flex (0, 0, 12.5%);
+  padding: 5px;
+
+  @media @tablet {
+    padding: 0;
+  }
+}
+
+.border {
+  border-top: 1px solid @df-border-gray;
+
+  @media @tablet {
+    border: none;
+    border-left: 2px solid @df-border-gray;
+    padding-left: 10px;
+  }
+}
+
+.table-header {
+  font-weight: 600;
+}

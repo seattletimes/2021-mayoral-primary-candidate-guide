@@ -6,10 +6,38 @@
     <% }); %>
   </nav>
   <h2><%= data.question.text %></h2>
-  <iframe title="" aria-label="table" id="datawrapper-chart-tJnTN" src="<%= data.question.url %>" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height= 100% !important></iframe>
+  <!-- //place for the table of yes no  -->
+
+  <% data.candidates.forEach(function(c) { %>
+    <div class="table">
+      <div class="row table-header">
+        <div class="table-cell"><%= c.name %></div>
+        <div class="table-cell"><%= c.name %></div>
+      </div>
+  <% }); %>
+  <% data.questions.forEach(function(q) { %>
+      <div class="row">
+        <div class="table-cell border">c.questions[data.id]</div>
+        <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>      <div class="table-cell border">Has a sword</div>
+      </div>
+    </div>
+
+    <!-- <li>
+      <a class="meta" href="#/candidates/<%= c.id %>">
+        <img src="./assets/mugs/<%= c.mug || "blank.jpg" %>" class="mug">
+        <b class="name"><%= c.name %></b>
+      </a>
+      <blockquote><%= c.questions[data.id] || "Did not answer." %></blockquote> -->
+      
+    <% }); %>
+
+
+
+  <!-- //datawrapper option -->
+  <!-- <iframe title="" aria-label="table" id="datawrapper-chart-tJnTN" src="<%= data.question.url %>" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height= 100% !important></iframe>
   
   <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-  </script>
+  </script> -->
 
   <ul class="candidate-answers">
     <% data.candidates.forEach(function(c) { %>
