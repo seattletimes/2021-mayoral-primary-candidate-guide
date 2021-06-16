@@ -66,9 +66,9 @@ router.add("/candidates/:id", function(e) {
 });
 
 var onIssue = function(e) {
-  var id = e.params.id || "affordable_housing";
+  var id = e.params.id || "campaign_tweet";
   setViewAttr("question");
-  var questions = window.questionData.filter(q => q.category == "standalone");
+  var questions = window.questionData.filter(q => q.category != "biography");
   var question = lookup.question[id];
   var candidates = window.candidateData;
   viewContainer.innerHTML = templates.question({ id, question, questions, candidates });
