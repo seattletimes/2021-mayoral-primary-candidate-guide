@@ -1,0 +1,9 @@
+<div class="question-chooser">
+  <% data.questions.forEach(function(q) { %>
+  <div class="question">
+    <a href="#/question/<%= q.id %>">
+      <%= q.text %>
+    </a>
+  </div>
+  <% }); %>
+</div>

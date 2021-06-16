@@ -1,0 +1,253 @@
+[
+  {
+    "id": "name",
+    "text": "Name",
+    "category": "removed"
+  },
+  {
+    "id": "age",
+    "text": "Age",
+    "category": "biography"
+  },
+  {
+    "id": "education",
+    "text": "Education",
+    "category": "biography"
+  },
+  {
+    "id": "job",
+    "text": "Occupation",
+    "category": "biography"
+  },
+  {
+    "id": "income",
+    "text": "Annual Income",
+    "category": "biography"
+  },
+  {
+    "id": "family",
+    "text": "Family",
+    "category": "biography"
+  },
+  {
+    "id": "neighborhood",
+    "text": "Neighborhood",
+    "category": "biography"
+  },
+  {
+    "id": "rent_own",
+    "text": "Rent or own?",
+    "category": "biography"
+  },
+  {
+    "id": "time_served",
+    "text": "How long have you lived in Seattle?",
+    "category": "biography"
+  },
+  {
+    "id": "favorite_transport",
+    "text": "Primary mode of transportation",
+    "category": "biography"
+  },
+  {
+    "id": "favorite_seattleite",
+    "text": "Favorite Seattleite past or present",
+    "category": "biography"
+  },
+  {
+    "id": "favorite_musician",
+    "text": "Favorite musician or music group",
+    "category": "biography"
+  },
+  {
+    "id": "rent_regulation",
+    "text": "Would rent regulation help Seattle?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no, maybe"
+  },
+  {
+    "id": "homeless_eviction",
+    "text": "Has the city been evicting people from unauthorized homeless encampments too much, too little or just the right amount?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "too much, too little, just right"
+  },
+  {
+    "id": "more_encampments",
+    "text": "Should the city open more authorized homeless encampments?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no, maybe"
+  },
+  {
+    "id": "impact_fees",
+    "text": "Should Seattle assess impact fees on developers?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "rental_applicants",
+    "text": "Do you approve of the city's new first-come, first-served rule for rental applicants?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "income_tax",
+    "text": "Should the city adopt an income tax on high earners?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no, maybe"
+  },
+  {
+    "id": "head_tax",
+    "text": "Should the city adopt a head tax on businesses?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no, only big businesses"
+  },
+  {
+    "id": "drink_tax",
+    "text": "Do you approve of the city's new sugary-drinks tax?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "public_meetings",
+    "text": "Should meetings of task forces convened by the mayor be open to the public?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "always, sometimes, never"
+  },
+  {
+    "id": "parental_leave",
+    "text": "Should Seattle mandate paid parental leave in the private sector?",
+    "category": "removed"
+  },
+  {
+    "id": "municipal_broadband",
+    "text": "Should Seattle create municipal broadband?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no, maybe"
+  },
+  {
+    "id": "grow_spd",
+    "text": "Should the city continue to grow its number of police officers?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "arena_location",
+    "text": "Where should a new sports/entertainment arena be built?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "Seattle Center, Sodo, Nowhere"
+  },
+  {
+    "id": "courthouse",
+    "text": "Should King County move ahead with its existing plan to build a new juvenile courthouse and detention center in Seattle?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "injection_site",
+    "text": "Should Seattle and King County open a safe-injection site in the city?",
+    "category": "Multiple choice",
+    "issue": "",
+    "choices": "yes, no"
+  },
+  {
+    "id": "campaign_tweet",
+    "text": "Sum up your campaign in a tweet &mdash; no more than 140 characters.",
+    "category": "short answer"
+  },
+  {
+    "id": "first_cut",
+    "text": "Which city department or office should first have its budget cut, if any?",
+    "category": "short answer"
+  },
+  {
+    "id": "first_boost",
+    "text": "Which city department or office should first having its budget increased, if any?",
+    "category": "short answer"
+  },
+  {
+    "id": "retain_otoole",
+    "text": "Would you retain Kathleen O'Toole as police chief?",
+    "category": "short answer",
+    "issue": "",
+    "choices": "yes, no, maybe"
+  },
+  {
+    "id": "affordable_housing",
+    "text": "How would you help Seattleites better afford housing and halt displacement?",
+    "category": "standalone",
+    "issue": "Housing"
+  },
+  {
+    "id": "upzone_support",
+    "text": "Do you support the city's existing Mandatory Housing Affordability upzones plan, and why?",
+    "category": "standalone",
+    "issue": "Upzones"
+  },
+  {
+    "id": "denser_housing",
+    "text": "Would you allow denser housing in zones now reserved for single-family homes (beyond the city's plan to allow more and larger mother-in-law units and backyard cottages), and why? If so, what would your plan look like?",
+    "category": "standalone",
+    "issue": "Density"
+  },
+  {
+    "id": "homeless_budget",
+    "text": "Is the approximately $60 million Seattle will spend on homeless services this year too little, too much or just the right amount, and why?",
+    "category": "standalone",
+    "issue": "Homelessness"
+  },
+  {
+    "id": "north_precinct",
+    "text": "Would you build a new North Precinct police station, and why? If so, what would your plan look like?",
+    "category": "standalone",
+    "issue": "Police"
+  },
+  {
+    "id": "public_safety",
+    "text": "What is the most important public-safety challenge facing Seattle, and how would you solve it?",
+    "category": "standalone",
+    "issue": "Safety"
+  },
+  {
+    "id": "congestion_strategy",
+    "text": "Is it possible to make getting around easier before new light-rail stations open in 2021? How would you address congestion, and should the city try to make driving easier or more difficult?",
+    "category": "standalone",
+    "issue": "Transportation"
+  },
+  {
+    "id": "taxation_strategy",
+    "text": "How, if at all, would you change how Seattleites are taxed, and why?",
+    "category": "standalone",
+    "issue": "Taxes"
+  },
+  {
+    "id": "wage_gap",
+    "text": "How would you address the gender wage gap in Seattle?",
+    "category": "standalone",
+    "issue": "Wage gap"
+  },
+  {
+    "id": "waterfront_strategy",
+    "text": "What would you do with the downtown waterfront after the Alaskan Way Viaduct is brought down, and how would you pay for it? How would your plan differ from the city's existing plan, if at all?",
+    "category": "standalone",
+    "issue": "Waterfront"
+  },
+  {
+    "id": "misc",
+    "text": "What else would you like voters to know about you and what you would do as mayor? (optional)",
+    "category": "standalone",
+    "issue": "Bonus"
+  }
+]

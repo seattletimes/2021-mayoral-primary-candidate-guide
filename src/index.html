@@ -1,3 +1,18 @@
+<%
+// merge data together
+var candidates = [];
+Object.keys(json.Candidates).forEach(function(k, i) {
+  var candidate = json.Candidates[k];
+  candidate.id = k;
+  candidates.push(candidate);
+  candidate.questions = json.Edited[k] || {};
+  candidate.dna = Object.keys(candidate.questions)
+    .map(q => candidate.questions[q])
+    .filter(a => a == "Did not answer." ? false : a)
+    .length <= 1;
+});
+%>
+
 <!doctype html>
 <html lang="en-US">
   <head>
@@ -17,8 +32,45 @@
       <%= t.include("partials/_gtmNoScript.html") %>
     <% } %>
     <responsive-child>
-      <!-- content goes here -->
+      <header class="splash">
+        <div class="inner">
+          <h1>Meet Seattle's candidates for mayor</h1>
+          <p>
+            With 21 candidates on the Aug. 1 primary-election ballot, we figured voters could use some help sorting through a field so varied it includes not only politicians, lawyers and activists, but a rock drummer, a police officer, even a sausage maker. 
+          </p>
+  
+          <p>
+            Click on the photos to learn more about each candidate, or select "Issues" to compare their answers side by side.
+          </p>
+          <% var updated = new Date(); %>
+          <% var months = { 6: "July", 7: "Aug.", 8: "Sep." } %>
+          <p class="dateline">Updated <%= months[updated.getMonth()] %> <%= updated.getDate() %>, 2017</p>
+        </div>
+      </header>
+
+      <div class="constraint">
+
+        <main>
+          <nav class="tab-group" id="navigation">
+            <a href="#/candidates" class="candidates active">Candidates</a>
+            <a href="#/issue/affordable_housing" class="questions">Issues</a>
+            <a href="#/about" class="about">About</a>
+            <a href="http://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
+          </nav>
+          <div class="view-container">
+            <%= t.include("js/_candidate-chooser.html", { data: { candidates }}) %>
+          </div>
+        </main>
+  
+      </div>
     </responsive-child>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script>
+      window.candidateData = <%= JSON.stringify(candidates) %>;
+      window.questionData = <%= JSON.stringify(json.Questions.filter(q => q.category != "removed")) %>;
+    </script>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
