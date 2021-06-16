@@ -36,15 +36,11 @@ Object.keys(json.Candidates).forEach(function(k, i) {
         <div class="inner">
           <h1>Meet Seattle's candidates for mayor</h1>
           <p>
-            With 21 candidates on the Aug. 1 primary-election ballot, we figured voters could use some help sorting through a field so varied it includes not only politicians, lawyers and activists, but a rock drummer, a police officer, even a sausage maker. 
-          </p>
-  
-          <p>
-            Click on the photos to learn more about each candidate, or select "Issues" to compare their answers side by side.
+            With Mayor Jenny Durkan not seeking reelection, more than a dozen candidates filed for Aug. 3's primary-election ballot, including contenders with experience in politics, architecture, economic development and business. Need help sorting through the crowd? Click on the photos to learn more about each candidate, or select "issues" to compare their answers side by side. This guide isn't intended to cover every aspect of the race in detail -- check out more coverage here.
           </p>
           <% var updated = new Date(); %>
           <% var months = { 6: "July", 7: "Aug.", 8: "Sep." } %>
-          <p class="dateline">Updated <%= months[updated.getMonth()] %> <%= updated.getDate() %>, 2017</p>
+          <p class="dateline">Published June 20, 2021</p>
         </div>
       </header>
 
@@ -53,7 +49,7 @@ Object.keys(json.Candidates).forEach(function(k, i) {
         <main>
           <nav class="tab-group" id="navigation">
             <a href="#/candidates" class="candidates active">Candidates</a>
-            <a href="#/issue/affordable_housing" class="questions">Issues</a>
+            <a href="#/issue/police_safety" class="questions">Issues</a>
             <a href="#/about" class="about">About</a>
             <a href="http://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
           </nav>

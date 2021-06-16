@@ -1,182 +1,52 @@
 {
-  "brose": {
-    "key": "brose",
-    "name": "Gary Brose",
-    "mug": "brose.jpg",
-    "summary": "Ballard entrepreneur who says city has waged war on cars by remaking roads for buses and bikes. Says small businesses are too burdened with taxes and regulations.",
-    "video": "",
-    "cid": "c2950"
+  "langlie": {
+    "key": "langlie",
+    "name": "Arthur K. Langlie",
+    "mug": "Langlie.jpg"
   },
-  "carlisle": {
-    "key": "carlisle",
-    "name": "Casey Carlisle",
-    "mug": "carlisle.jpg",
-    "summary": "Libertarian with military background. Says city leaders have been fiscally irresponsible and other candidates are Ed Murray clones.",
-    "video": "",
-    "cid": "c2431"
+  "randall": {
+    "key": "randall",
+    "name": "Lance Randall",
+    "mug": "Randall.jpg"
   },
-  "cato": {
-    "key": "cato",
-    "name": "Tiniell Cato",
-    "mug": "",
-    "summary": "Grant-writing and business consultant. Says government discriminates against people based on race and income.",
-    "video": "",
-    "cid": "c2798"
-  },
-  "durkan": {
-    "key": "durkan",
-    "name": "Jenny Durkan",
-    "mug": "durkan.jpg",
-    "summary": "Appointed by President Barack Obama, she was the first openly gay U.S. attorney. Has support from old-guard Democrats and business community.",
-    "video": 5501344914001,
-    "cid": "c2718",
-    "profile": "http://www.seattletimes.com/seattle-news/politics/jenny-durkan-showcases-her-experience-in-race-for-seattle-mayor/",
-    "profile_text": "Jenny Durkan draws big-time backers, overt opposition in Seattle mayoral bid"
+  "houston": {
+    "key": "houston",
+    "name": "Andrew Grant Houston",
+    "mug": "Houston.jpg"
   },
   "farrell": {
     "key": "farrell",
     "name": "Jessyn Farrell",
-    "mug": "farrell.jpg",
-    "summary": "Urbanist who resigned from a statehouse seat to focus on her mayoral campaign. Emphasizing her legislative experience and reaching out to other working parents.",
-    "video": 5501347871001,
-    "cid": "c2663",
+    "mug": "Farrell.jpg",
+    "summary": "",
+    "video": "",
+    "cid": "",
+    "profile": "http://www.seattletimes.com/seattle-news/politics/jenny-durkan-showcases-her-experience-in-race-for-seattle-mayor/",
+    "profile_text": "Jenny Durkan draws big-time backers, overt opposition in Seattle mayoral bid"
+  },
+  "sixkiller": {
+    "key": "sixkiller",
+    "name": "Casey Sixkiller",
+    "mug": "Sixkiller.jpg",
+    "summary": "",
+    "video": "",
+    "cid": "",
     "profile": "http://www.seattletimes.com/seattle-news/politics/mayoral-candidate-jessyn-farrell-says-record-shows-shed-keep-seattles-progressive-train-moving/",
     "profile_text": "Mayoral candidate Jessyn Farrell says record shows she’d keep Seattle’s progressive train moving"
   },
-  "gunn": {
-    "key": "gunn",
-    "name": "Thom Gunn",
-    "mug": "gunn.jpg",
-    "summary": "Writer and former Whidbey Island restaurant owner who was once president of the Associated Students of the University of Washington.",
-    "video": "",
-    "cid": "c2931"
+  "harrell": {
+    "key": "harrell",
+    "name": "Bruce Harrell",
+    "mug": "Harrell.jpg"
   },
-  "harris": {
-    "key": "harris",
-    "name": "Michael Harris",
-    "mug": "harris.jpg",
-    "summary": "Video journalist and wildlife conservationist who ran a trade group for whale-watching businesses. Says city politics have veered too far left.",
-    "video": "",
-    "cid": "c2901"
+  "echohawk": {
+    "key": "echohawk",
+    "name": "Colleen Echohawk",
+    "mug": "Echohawk.jpg"
   },
-  "hamilton": {
-    "key": "hamilton",
-    "name": "Greg Hamilton",
-    "mug": "hamilton.jpg",
-    "summary": "Owner of a sustainable-agriculture company who served in the military. Says city’s culture is under threat from special interests and identity politics.",
-    "video": "",
-    "cid": "c2781"
-  },
-  "hasegawa": {
-    "key": "hasegawa",
-    "name": "Bob Hasegawa",
-    "mug": "hasegawa.jpg",
-    "summary": "State senator from Beacon Hill is an old-school labor leader who came up through the Teamsters. Says a municipal bank would help with many urban problems.",
-    "video": 5501350697001,
-    "cid": "c2789",
-    "profile": "http://www.seattletimes.com/seattle-news/politics/seattle-mayoral-hopeful-bob-hasegawa-give-neighborhoods-much-more-control/",
-    "profile_text": "Seattle mayoral hopeful Bob Hasegawa: ‘Give neighborhoods much more control’"
-  },
-  "jones": {
-    "key": "jones",
-    "name": "Lewis A. Jones",
-    "mug": "jones.jpg",
-    "summary": "Ballard Republican and former commercial fisherman with a tree-topping and lawn-mowing business. Has concerns about health effects of cellphones and says women should be trained to use firearms for safety.",
-    "video": "",
-    "cid": "c2967"
-  },
-  "kane": {
-    "key": "kane",
-    "name": "Dave Kane",
-    "mug": "",
-    "summary": "Belltown resident. Could not be reached and did not provide information for the King County Elections voter pamphlet.",
-    "video": "",
-    "cid": "c2852"
-  },
-  "lever": {
-    "key": "lever",
-    "name": "Harley Lever",
-    "mug": "lever.jpg",
-    "summary": "Founder of Safe Seattle, a group of residents and business owners with concerns about street homelessness in neighborhoods. Says he’d use technology to improve government.",
-    "video": "",
-    "cid": "c2706"
-  },
-  "martin": {
-    "key": "martin",
-    "name": "Mary J. Martin",
-    "mug": "martin.jpg",
-    "summary": "Socialist Workers Party candidate who also ran for governor in 2012 and 2016 and for mayor in 2013. Longtime factory worker.",
-    "video": "",
-    "cid": "c2715"
-  },
-  "mcginn": {
-    "key": "mcginn",
-    "name": "Mike McGinn",
-    "mug": "mcginn.jpg",
-    "summary": "Former mayor unseated in 2013 by Ed Murray. Says he’d review budget, tax big businesses, focus on basics and try to speed up the construction of light rail.",
-    "video": 5501354786001,
-    "cid": "c2799",
-    "profile": "http://www.seattletimes.com/seattle-news/politics/mike-mcginn-seeks-second-chance-and-political-upset-in-his-run-for-seattle-mayor/",
-    "profile_text": "Mike McGinn seeks second chance and political upset in his run for Seattle mayor"
-  },
-  "moon": {
-    "key": "moon",
-    "name": "Cary Moon",
-    "mug": "moon.jpg",
-    "summary": "Urban planner who led opposition to the Alaskan Way Viaduct replacement tunnel. Calling for a crackdown on real-estate speculators, and helping to fund her own campaign.",
-    "video": 5501344145001,
-    "cid": "c2486",
-    "profile": "http://www.seattletimes.com/seattle-news/politics/in-crowded-seattle-mayoral-race-cary-moons-challenge-is-to-stand-apart/",
-    "profile_text": "Cary Moon offers progressive vision, faces challenge to stand apart in Seattle mayor’s race"
-  },
-  "norton": {
-    "key": "norton",
-    "name": "James W. Norton Jr.",
-    "mug": "norton.jpg",
-    "summary": "Seattle police officer who says there should be more dialogue between cops and community members. Former veterinary technician and owner of a dog-walking business.",
-    "video": "",
-    "cid": "c2423"
-  },
-  "oberto": {
-    "key": "oberto",
-    "name": "Larry Oberto",
-    "mug": "oberto.jpg",
-    "summary": "Member of Seattle’s Oberto Sausage Company family who’s served as sports-marketing director for the company. Has been involved in hydroplane and car racing.",
-    "video": "",
-    "cid": "c2966"
-  },
-  "oliver": {
-    "key": "oliver",
-    "name": "Nikkita Oliver",
-    "mug": "oliver.jpg",
-    "summary": "Educator, attorney, artist and activist. Says she’d fight displacement, halt property-tax hikes and be a voice for less-affluent people, young people and people of color.",
-    "video": 5501350704001,
-    "cid": "c2810",
-    "profile": "http://www.seattletimes.com/seattle-news/politics/outsider-and-abolitionist-nikkita-oliver-vies-to-head-the-system-and-transform-it/",
-    "profile_text": "Outsider Nikkita Oliver vies to head the system, transform it"
-  },
-  "roberts": {
-    "key": "roberts",
-    "name": "Jason Roberts",
-    "mug": "roberts.jpg",
-    "summary": "Business owner and consultant. Advocates free rehabilitation services for people struggling with drug addiction.",
-    "video": "",
-    "cid": "c2497"
-  },
-  "tsimerman": {
-    "key": "tsimerman",
-    "name": "Alex Tsimerman",
-    "mug": "tsimerman.jpg",
-    "summary": "Frequent candidate who regularly delivers profane testimony at City Council meetings and rails against fascism.",
-    "video": "",
-    "cid": "c2513"
-  },
-  "whiteman": {
-    "key": "whiteman",
-    "name": "Keith J. Whiteman",
-    "mug": "whiteman.jpg",
-    "summary": "Rock drummer who says he’d listen to experts. Says he’d ban the Confederate flag and tax big businesses.",
-    "video": "",
-    "cid": "c2724"
+  "gonzalez": {
+    "key": "gonzalez",
+    "name": "M. Lorena González",
+    "mug": "Gonzalez.jpg"
   }
 }
