@@ -77,14 +77,27 @@
     <% data.detailed.forEach(function(q) { %>
     <li>
       <div class="padding">
-        <div class="question" href="#/issue/<%= q.id %>">
-          <%= q.text %>
+        <div class="topic">
+          <a href="#/issue/<%= q.topics %>">          <%= q.topics %></a>
         </div>
-        <blockquote><%= data.candidate.questions[q.id] || "<i>No response given</i>" %></blockquote>
+        <div>
+          <div class="question" href="#/issue/<%= q.id %>">
+            <%= q.text %>
+          </div>
+          <blockquote><%= data.candidate.questions[q.id] || "<i>No response given</i>" %></blockquote>
+        </div>
       </div>
+
     <% }); %>
   </ul>
 
   <% } %>
 
 </div>
+
+<nav class="tab-group" id="navigation">
+  <a href="#/candidates" class="candidates active">Candidates</a>
+  <a href="#/issue/2020_homicides" class="questions">Issues</a>
+  <a href="#/about" class="about">About</a>
+  <a href="http://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
+</nav>

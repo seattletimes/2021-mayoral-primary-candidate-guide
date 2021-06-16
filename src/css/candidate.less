@@ -94,6 +94,7 @@
 
     blockquote {
       margin: 0;
+      font-size: 16px;
     }
 
     &.biographical {
@@ -200,18 +201,24 @@
 
         .padding {
           padding: 0 16px 32px 0;
+          display: flex;
+
+          .topic {
+            .flex (0, 0, 20%);
+            color: @blue;
+          }
         }
       }
 
       .question {
         font-weight: bold;
         font-family: @df-sans;
-        color: @blue;
+        // color: @blue;
         font-size: 18px;
       }
 
       blockquote {
-        font-size: 20px;
+        font-size: 16px;
       }
     }
   }
