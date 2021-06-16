@@ -11,8 +11,9 @@
       </div>
       <div class="bio-container">
         <h1><%= data.candidate.name %></h1>
+        <h2>Age: <%= data.candidate.age %></h2>
+        <p><%= data.candidate.tweet %></p>
         <!-- <p class="summary"><%= data.candidate.summary %></p> -->
-        <p>
           <!-- <a href="http://info.kingcounty.gov/kcelections/candidatesonballot/pamphlet/pamphlet.aspx?cid=2851&eid=8#<%= data.candidate.cid %>">King County voter-pamphlet entry</a> -->
 
         <% if (data.candidate.profile) { %>
@@ -39,7 +40,7 @@
   </div>
   <% } else { %>
   
-  <h2>Bio</h2>
+  <h3>Bio</h3>
   <ul class="biographical questions">
     <% data.bio.forEach(function(q) { %>
     <li>
@@ -50,7 +51,7 @@
     <% }); %>
   </ul>
 
-  <h2>Quick hits</h2>
+  <h3>Quick hits</h3>
   <ul class="multiple-choice questions">
     <% data.choice.forEach(function(q) { %>
     <li>
@@ -71,7 +72,7 @@
     <% }); %>
   </ul>
   
-  <h2>Policies and plans</h2>
+  <h3>Policies and plans</h3>
   <ul class="standalone questions">
     <% data.detailed.forEach(function(q) { %>
     <li>

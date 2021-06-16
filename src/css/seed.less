@@ -12,7 +12,7 @@ body {
   
   header.splash {
     background: @df-blue;
-    padding: 80px 60px;
+    padding: 40px;
     @stripe-gap: 12px;
     @stripe-width: 1px;
     @grain-gap: 4px;
@@ -44,7 +44,7 @@ body {
       padding: 40px 20px 20px;
       box-shadow: 0 0 8px fade(black, 10%), 0 8px 4px fade(black, 30%);
       margin: auto;
-      max-width: 600px;
+      max-width: 900px;
   
       @media @mobile {
         padding: 20px;
@@ -82,6 +82,7 @@ body {
     .display-flex();
     .justify-content(center);
     font-family: @df-sans;
+    font-size: 22px;
   
     a {
       display: block;
@@ -112,9 +113,9 @@ body {
   }
   
   .mug {
-    border-radius: 100%;
+    // border-radius: 100%;
     // box-shadow: 0 3px 8px fade(black, 10%), 0 8px 16px fade(black, 12%);
-    max-width: 100px;
+    max-width: 120px;
   
     &[src*="undefined"] {
       background-color: white;

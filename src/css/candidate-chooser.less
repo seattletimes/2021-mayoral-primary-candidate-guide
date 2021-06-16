@@ -1,21 +1,22 @@
 .candidate-chooser {
   .display-flex();
   .flex-wrap(wrap);
-  font-size: 17px;
+  font-size: 19px;
+  padding-top: 30px;
 
   .candidate {
-    .flex(0 0 percentage(1 / 7));
+    .flex(0 0 percentage(1 / 4));
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-family: @df-sans;
-    line-height: 1.2;
+    line-height: 1.5;
 
     &.did-not-answer {
       
     }
 
-    @media (max-width: 1000px) {
-      .flex(0 0 percentage(1 / 5));
+    @media (max-width: 900px) {
+      .flex(0 0 percentage(1 / 4));
     }
 
     @media @tablet {
@@ -28,7 +29,7 @@
   }
 
   .mug {
-    border: 1px solid white;
+    // border: 1px solid white;
     display: block;
     margin: auto;
   }

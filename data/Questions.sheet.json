@@ -7,7 +7,7 @@
   {
     "id": "age",
     "text": "Age",
-    "category": "biography"
+    "category": "removed"
   },
   {
     "id": "job",
@@ -41,7 +41,7 @@
   },
   {
     "id": "favorite_seattleite",
-    "text": "What is your favorite bus route?",
+    "text": "Favorite Seattleite, past or present?",
     "category": "biography"
   },
   {
@@ -54,28 +54,32 @@
     "text": "Should the Seattle Police Department be defunded by 50% or more during your mayoral term?",
     "category": "Multiple choice",
     "issue": "PUBLIC SAFETY",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "PUBLIC SAFETY"
   },
   {
     "id": "eliminate_zoning",
     "text": "Should Seattle eliminate zoning that is reserved exclusively for single-family houses and allow multi-family housing on every block?",
     "category": "Multiple choice",
     "issue": "HOUSING",
-    "choices": "yes, no"
+    "choices": "yes, no",
+    "topics": "HOUSING"
   },
   {
     "id": "tax_corporations",
     "text": "Should Seattle increase taxes on large corporations?",
     "category": "Multiple choice",
     "issue": "TAXES",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "TAXES"
   },
   {
     "id": "misdemeanors_defense",
     "text": "Would you support Seattle establishing poverty and behavioral health as defenses for certain x?",
     "category": "Multiple choice",
     "issue": "LEGAL SYSTEM",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "LEGAL SYSTEM"
   },
   {
     "id": "drug_decrim",
@@ -122,8 +126,7 @@
   {
     "id": "campaign_tweet",
     "text": "Sum up your campaign in a tweet &mdash; no more than 140 characters.",
-    "category": "short answer",
-    "issue": "TWEET"
+    "category": "removed"
   },
   {
     "id": "2020_homicides",
