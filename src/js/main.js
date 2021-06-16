@@ -22,11 +22,29 @@ var templates = {
 
 var lookup = {
   candidate: {},
-  question: {}
+  question: {},
+  issues: {},
 };
 
 window.candidateData.forEach(c => lookup.candidate[c.id] = c);
 window.questionData.forEach(q => lookup.question[q.id] = q);
+window.questionData.forEach((q) => {
+    const issue = q.issue;
+    if (!issue) {
+        return;
+    }
+
+    if (!(issue in lookup.issues)) {
+        lookup.issues[issue] = {
+            issue: issue,
+            questions: [],
+        };
+    }
+
+    lookup.issues[issue].questions.push(q);
+});
+
+console.log(JSON.stringify(lookup.issues, null, 2));
 
 var setViewAttr = v => document.body.setAttribute("data-view", v);
 
@@ -66,12 +84,32 @@ router.add("/candidates/:id", function(e) {
 });
 
 var onIssue = function(e) {
-  var id = e.params.id || "campaign_tweet";
+  var id = decodeURIComponent(e.params.id) || "ECONOMY";
   setViewAttr("question");
   var questions = window.questionData.filter(q => q.category != "biography");
-  var question = lookup.question[id];
+  var issue = lookup.issues[id];
+  var issues = Object.keys(lookup.issues);
   var candidates = window.candidateData;
-  viewContainer.innerHTML = templates.question({ id, question, questions, candidates });
+
+  const multipleChoice = [];
+  const other = [];
+  for (const q of issue.questions) {
+    if (q.category === "Multiple choice") {
+        multipleChoice.push(q);
+    } else {
+        other.push(q);
+    }
+  }
+
+  viewContainer.innerHTML = templates.question({
+      id,
+      issues,
+      issue,
+      multipleChoice,
+      other,
+      questions,
+      candidates,
+    });
 };
 
 router.add("/issue/:id", onIssue);
