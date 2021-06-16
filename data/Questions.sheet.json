@@ -55,7 +55,9 @@
     "category": "Multiple choice",
     "issue": "PUBLIC SAFETY",
     "choices": "yes, no, maybe",
-    "topics": "PUBLIC SAFETY"
+    "topics": "",
+    "order": 1,
+    "url": "https://datawrapper.dwcdn.net/tJnTN/1/"
   },
   {
     "id": "eliminate_zoning",
@@ -63,7 +65,8 @@
     "category": "Multiple choice",
     "issue": "HOUSING",
     "choices": "yes, no",
-    "topics": "HOUSING"
+    "topics": "",
+    "order": 1
   },
   {
     "id": "tax_corporations",
@@ -71,7 +74,8 @@
     "category": "Multiple choice",
     "issue": "TAXES",
     "choices": "yes, no, maybe",
-    "topics": "TAXES"
+    "topics": "",
+    "order": 1
   },
   {
     "id": "misdemeanors_defense",
@@ -79,49 +83,62 @@
     "category": "Multiple choice",
     "issue": "LEGAL SYSTEM",
     "choices": "yes, no, maybe",
-    "topics": "LEGAL SYSTEM"
+    "topics": "",
+    "order": 1
   },
   {
     "id": "drug_decrim",
     "text": "Should the possession of all drugs be decriminalized in Seattle?",
     "category": "Multiple choice",
     "issue": "LEGAL SYSTEM",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "",
+    "order": 2
   },
   {
     "id": "rent_control",
     "text": "Were Seattle allowed by the state to enact rent control, would you support doing that?",
     "category": "Multiple choice",
     "issue": "HOUSING",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "",
+    "order": 2
   },
   {
     "id": "police_unions",
     "text": "Should police unions be allowed to engage in collective bargaining over accountability issues?",
     "category": "Multiple choice",
     "issue": "PUBLIC SAFETY",
-    "choices": "yes, no"
+    "choices": "yes, no",
+    "topics": "",
+    "order": 2
   },
   {
     "id": "raise_taxes",
     "text": "Would you support raising property and/or sales taxes during your mayoral term?",
     "category": "Multiple choice",
     "issue": "TAXES",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "",
+    "order": 2
   },
   {
     "id": "compassion_seattle",
     "text": "Would you vote for the proposed Compassion Seattle charter amendment, related to homelessness policies?",
     "category": "Multiple choice",
     "issue": "HOMELESSNESS",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "",
+    "order": 1
   },
   {
     "id": "municipal_broadband",
     "text": "Should Seattle create municipal broadband?",
     "category": "Multiple choice",
     "issue": "BROADBAND",
-    "choices": "yes, no, maybe"
+    "choices": "yes, no, maybe",
+    "topics": "BROADBAND",
+    "order": 1
   },
   {
     "id": "campaign_tweet",
@@ -132,60 +149,90 @@
     "id": "2020_homicides",
     "text": "Seattle recorded 50 homicides in 2020, most committed with guns. What would you do to address that?",
     "category": "short answer",
-    "issue": "PUBLIC SAFETY"
+    "issue": "PUBLIC SAFETY",
+    "choices": "",
+    "topics": "PUBLIC SAFETY",
+    "order": 3
   },
   {
     "id": "greenhouse_gas",
     "text": "Seattle has a stated goal of reducing greenhouse gas emissions 58% by 2030. How would you ensure the city gets there?",
     "category": "short answer",
-    "issue": "CLIMATE"
+    "issue": "CLIMATE",
+    "choices": "",
+    "topics": "CLIMATE",
+    "order": 1
   },
   {
     "id": "transportation_mode",
     "text": "Rank these transportation modes from most to least important and explain why: walking, biking, transit, driving",
     "category": "short answer",
-    "issue": "TRANSPORTATION"
+    "issue": "TRANSPORTATION",
+    "choices": "",
+    "topics": "TRANSPORTATION",
+    "order": 1
   },
   {
     "id": "unaffordable_housing",
     "text": "Housing in Seattle has become unaffordable for many people. How would you change that?",
     "category": "short answer",
-    "issue": "HOUSING"
+    "issue": "HOUSING",
+    "choices": "",
+    "topics": "HOUSING",
+    "order": 3
   },
   {
     "id": "unsanctioned_homeless",
     "text": "Under what circumstances, if any, would the city under your direction remove an unsanctioned homeless encampment?",
     "category": "short answer",
-    "issue": "HOMELESSNESS"
+    "issue": "HOMELESSNESS",
+    "choices": "",
+    "topics": "HOMELESSNESS",
+    "order": 2
   },
   {
     "id": "seattle_tax",
     "text": "What would you do to change Seattle’s tax system, if anything, and why?",
     "category": "short answer",
-    "issue": "TAXES"
+    "issue": "TAXES",
+    "choices": "",
+    "topics": "TAXES",
+    "order": 3
   },
   {
     "id": "business_thrive",
     "text": "How would you work to ensure that Seattle’s workers and businesses thrive?",
     "category": "short answer",
-    "issue": "ECONOMY"
+    "issue": "ECONOMY",
+    "choices": "",
+    "topics": "ECONOMY",
+    "order": 1
   },
   {
     "id": "wealth_gap",
     "text": "What would you do to address Seattle’s racial wealth gap?",
     "category": "short answer",
-    "issue": "WEALTH GAP"
+    "issue": "WEALTH GAP",
+    "choices": "",
+    "topics": "WEALTH GAP",
+    "order": 1
   },
   {
     "id": "child_care",
     "text": "How would you address Seattle's scarcity of affordable child care?",
     "category": "short answer",
-    "issue": "CHILD CARE"
+    "issue": "CHILD CARE",
+    "choices": "",
+    "topics": "CHILD CARE",
+    "order": 1
   },
   {
     "id": "spend_homeless",
     "text": "How much money should Seattle spend each year during your mayoral term to combat homelessness, and why?",
     "category": "standalone",
-    "issue": "HOMELESSNESS"
+    "issue": "HOMELESSNESS",
+    "choices": "",
+    "topics": "",
+    "order": 3
   }
 ]
