@@ -31,7 +31,13 @@ Object.keys(json.Candidates).forEach(function(k, i) {
     <% if (json.project.production && !json.project.embedded) { %>
       <%= t.include("partials/_gtmNoScript.html") %>
     <% } %>
+
+    <%= t.include("partials/_nav.html") %>
     <responsive-child>
+      <div class="ad">
+        <zeus-ad id="zeus_top" width="100%;"></zeus-ad>
+      </div>
+
       <header class="splash">
         <div class="inner">
           <h1>Meet Seattle's 2021 candidates for mayor</h1>
@@ -61,6 +67,10 @@ Object.keys(json.Candidates).forEach(function(k, i) {
       </div>
     </responsive-child>
 
+    <div class="ad">
+      <zeus-ad id="zeus_bottom" width="100%;"></zeus-ad>
+    </div>
+    
     <%= t.include("partials/_navBottom.html") %>
 
     <script>
