@@ -41,11 +41,9 @@
             <div class="mobile-column"><%= c.last %></div>
           <% }); %>
   
-          <% data.multipleChoice.forEach(function(q) { %>
             <% data.candidates.forEach(function(c) { %>
               <div class="mobile-column"><%= c.questions[q.id] %></div>
             <% }); %>
-          <% }); %>
             </div>
       <% }); %>
     <% } %>
