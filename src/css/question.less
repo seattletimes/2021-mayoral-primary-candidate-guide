@@ -79,8 +79,8 @@
 //table styling
 .table {
   padding: 0 0 20px;
-
   text-align: center;
+  font-size: 16px;
 
   @media @tablet {
     // .flex (0, 0, 2);
@@ -100,8 +100,20 @@
 }
 
 .table-cell {
-  .flex (0, 0, 12.5%);
+  .flex (0, 0, 8%);
   padding: 5px;
+  justify-content: space-between;
+
+  @media @tablet {
+    padding: 0;
+  }
+}
+
+.table-question {
+  .flex (0, 0, 30%);
+  padding: 5px;
+  text-align: left;
+  font-style: italic;
 
   @media @tablet {
     padding: 0;

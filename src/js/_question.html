@@ -9,22 +9,23 @@
   <% if (data.multipleChoice.length > 0) { %>
     <div class="table">
       <div class="table-row table-header">
-        <div class="table-cell">Question</div>
+        <div class="table-question">Question</div>
         <% data.candidates.forEach(function(c) { %>
-        <div class="table-cell"><%= c.name %></div>
+        <div class="table-cell"><%= c.last %></div>
         <% }); %>
       </div>
 
       <% data.multipleChoice.forEach(function(q) { %>
       <div class="table-row">
-        <div class="table-cell"><%= q.text %></div>
+        <div class="table-question border"><%= q.text %></div>
         <% data.candidates.forEach(function(c) { %>
           <!-- Do an if here for your image choice -->
           <div class="table-cell border"><%= c.questions[q.id] %></div>
         <% }); %>
       <% }); %>
+      </div>
+      <% } %>
     </div>
-  <% } %>
 
   <% data.other.forEach(function(q) { %>
   <h2><%= q.text %></h2>
@@ -41,6 +42,7 @@
   </ul>
   <% }); %>
 </div>
+
 
 <nav class="tab-group" id="navigation">
   <a href="#/candidates" class="candidates active">Candidates</a>

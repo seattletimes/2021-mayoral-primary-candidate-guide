@@ -2,6 +2,7 @@
   "echohawk": {
     "key": "echohawk",
     "name": "Colleen Echohawk",
+    "last": "Echohawk",
     "mug": "Echohawk.jpg",
     "age": 45,
     "tweet": "The politicians have failed Seattle. I have detailed plans on homelessness and police reform. Time for a new generation of leadership."
@@ -9,6 +10,7 @@
   "farrell": {
     "key": "farrell",
     "name": "Jessyn Farrell",
+    "last": "Farrell",
     "mug": "Farrell.jpg",
     "age": 47,
     "tweet": "I'm the only candidate who can build broad coalitions, stop the infighting, and deliver the results we need to solve our biggest problems."
@@ -16,6 +18,7 @@
   "gonzalez": {
     "key": "gonzalez",
     "name": "M. Lorena González",
+    "last": "Gonzalez",
     "mug": "Gonzalez.jpg",
     "age": 44,
     "tweet": "I have the experience to build a thriving, diverse, and progressive Seattle, delivering real results on housing, transit, and public safety."
@@ -23,6 +26,7 @@
   "harrell": {
     "key": "harrell",
     "name": "Bruce Harrell",
+    "last": "Harrell",
     "mug": "Harrell.jpg",
     "age": 62,
     "tweet": "Experience & representation to unite Seattle; boldly advancing homelessness solutions, equitable economic recovery, effective public safety."
@@ -30,6 +34,7 @@
   "houston": {
     "key": "houston",
     "name": "Andrew Grant Houston",
+    "last": "Houston",
     "mug": "Houston.jpg",
     "age": 32,
     "tweet": "A grassroots movement to become the Seattle we always say that we are. This requires a bold, progressive mayor of action—not the status quo."
@@ -37,6 +42,7 @@
   "langlie": {
     "key": "langlie",
     "name": "Arthur K. Langlie",
+    "last": "Langlie",
     "mug": "Langlie.jpg",
     "age": 54,
     "tweet": "Seattle needs a change agent and a reboot. I am a fixer who brings people together to take on problems with zeal and fresh ideas to solve them."
@@ -44,6 +50,7 @@
   "randall": {
     "key": "randall",
     "name": "Lance Randall",
+    "last": "Randall",
     "mug": "Randall.jpg",
     "age": 55,
     "tweet": "My campaign has new ideas and new solutions to help Seattle overcome the challenges we are facing and move us towards a more vibrant and sustainable future."
@@ -51,6 +58,7 @@
   "sixkiller": {
     "key": "sixkiller",
     "name": "Casey Sixkiller",
+    "last": "Sixkiller",
     "mug": "Sixkiller.jpg",
     "age": 43,
     "tweet": "Seattle’s future is as bright as we work today to make it. Let’s meet our challenges together & advance practical, progressive solutions."
