@@ -40,9 +40,9 @@
           <ul class="mobile-list">
           <% data.candidates.forEach(function(c) { %>
             <div class="mobile-column">
-              <li><%= c.last %></li>
+              <li><b><%= c.last %></b></li>
             </div>
-            <div class="mobile-column">
+            <div class="mobile-column border">
               <li><%= c.questions[q.id] %></li>
             </div>
           <% }); %>
