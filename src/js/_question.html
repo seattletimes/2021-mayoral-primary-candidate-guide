@@ -16,17 +16,19 @@
       </div>
 
       <% data.multipleChoice.forEach(function(q) { %>
-      <div class="table-row">
-        <div class="table-question border"><%= q.text %></div>
+      <div class="table-row border">
+        <div class="table-question"><%= q.text %></div>
         <% data.candidates.forEach(function(c) { %>
           <!-- Do an if here for your image choice -->
-          <div class="table-cell border"><%= c.questions[q.id] %></div>
+          <div class="table-cell"><%= c.questions[q.id] %></div>
         <% }); %>
       <% }); %>
       </div>
     </div>
+  </div>
   <% } %>
 
+  <div class="question-view">
   <% data.other.forEach(function(q) { %>
   <h2><%= q.text %></h2>
 
@@ -46,7 +48,7 @@
 
 <nav class="tab-group" id="navigation">
   <a href="#/candidates" class="candidates active">Candidates</a>
-  <a href="#/issue/2020_homicides" class="questions">Issues</a>
+  <a href="#/issue/PUBLIC%20SAFETY" class="questions">Issues</a>
   <a href="#/about" class="about">About</a>
   <a href="http://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
 </nav>
