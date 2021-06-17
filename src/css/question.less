@@ -148,3 +148,24 @@
 .table-header {
   font-weight: 600;
 }
+
+.mobile-table {
+  display: none;
+
+  @media @tablet {
+    display: block;
+  }
+
+  .mobile-answers {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .mobile-column {
+    .flex(0, 0, 50%);
+  }
+}

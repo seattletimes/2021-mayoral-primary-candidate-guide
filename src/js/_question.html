@@ -36,18 +36,17 @@
         <% data.multipleChoice.forEach(function(q) { %>
         <h2><%= q.text %></h2>
       
-        <ul class="candidate-answers">
+        <div class="mobile-answers">
           <% data.candidates.forEach(function(c) { %>
-            <div class=""><%= c.last %></div>
+            <div class="mobile-column"><%= c.last %></div>
           <% }); %>
   
           <% data.multipleChoice.forEach(function(q) { %>
-            <div class=""><%= q.text %></div>
             <% data.candidates.forEach(function(c) { %>
-              <div class=""><%= c.questions[q.id] %></div>
+              <div class="mobile-column"><%= c.questions[q.id] %></div>
             <% }); %>
           <% }); %>
-        </ul>
+            </div>
       <% }); %>
     <% } %>
   </div>
