@@ -6,27 +6,29 @@
     <% }); %>
   </nav>
 
-  <% if (data.multipleChoice.length > 0) { %>
-    <div class="table">
-      <div class="table-row table-header">
-        <div class="table-question">Question</div>
-        <% data.candidates.forEach(function(c) { %>
-        <div class="table-cell"><%= c.last %></div>
-        <% }); %>
-      </div>
-
-      <% data.multipleChoice.forEach(function(q) { %>
-      <div class="table-row border">
-        <div class="table-question"><%= q.text %></div>
-        <% data.candidates.forEach(function(c) { %>
-          <!-- Do an if here for your image choice -->
-          <div class="table-cell"><%= c.questions[q.id] %></div>
-        <% }); %>
-      <% }); %>
-      </div>
+    <div class="desktop">
+      <% if (data.multipleChoice.length > 0) { %>
+        <div class="table">
+          <div class="table-row table-header">
+            <div class="table-question">Question</div>
+            <% data.candidates.forEach(function(c) { %>
+            <div class="table-cell"><%= c.last %></div>
+            <% }); %>
+          </div>
+    
+          <% data.multipleChoice.forEach(function(q) { %>
+          <div class="table-row border">
+            <div class="table-question"><%= q.text %></div>
+            <% data.candidates.forEach(function(c) { %>
+              <!-- Do an if here for your image choice -->
+              <div class="table-cell"><%= c.questions[q.id] %></div>
+            <% }); %>
+          <% }); %>
+          </div>
+        </div>
+      <% } %>
     </div>
   </div>
-  <% } %>
 
   <div class="question-view">
   <% data.other.forEach(function(q) { %>
