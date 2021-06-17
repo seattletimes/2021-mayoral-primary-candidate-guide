@@ -37,14 +37,17 @@
         <h2><%= q.text %></h2>
       
         <div class="mobile-answers">
+          <ul class="mobile-list">
           <% data.candidates.forEach(function(c) { %>
-            <div class="mobile-column"><%= c.last %></div>
-          <% }); %>
-  
-            <% data.candidates.forEach(function(c) { %>
-              <div class="mobile-column"><%= c.questions[q.id] %></div>
-            <% }); %>
+            <div class="mobile-column">
+              <li><%= c.last %></li>
             </div>
+            <div class="mobile-column">
+              <li><%= c.questions[q.id] %></li>
+            </div>
+          <% }); %>
+          </ul>
+        </div>
       <% }); %>
     <% } %>
   </div>
