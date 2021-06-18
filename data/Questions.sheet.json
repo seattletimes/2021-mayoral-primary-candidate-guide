@@ -60,10 +60,10 @@
   },
   {
     "id": "eliminate_zoning",
-    "text": "Should Seattle eliminate zoning that is reserved exclusively for single-family houses and allow multi-family housing on every block?",
+    "text": "Should Seattle eliminate zoning that allows only single-family houses and instead allow multi-family housing on every block (beyond current allowances for accessory units)?",
     "category": "Multiple choice",
     "issue": "HOUSING",
-    "choices": "yes, no",
+    "choices": "yes, no, maybe",
     "topics": "",
     "order": 1
   },
@@ -78,7 +78,7 @@
   },
   {
     "id": "misdemeanors_defense",
-    "text": "Would you support Seattle establishing poverty and behavioral health as defenses for certain x?",
+    "text": "Would you support Seattle establishing poverty and behavioral health as defenses for certain misdemeanors?",
     "category": "Multiple choice",
     "issue": "LEGAL SYSTEM",
     "choices": "yes, no, maybe",

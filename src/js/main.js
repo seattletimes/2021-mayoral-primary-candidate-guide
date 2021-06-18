@@ -44,8 +44,6 @@ window.questionData.forEach((q) => {
     lookup.issues[issue].questions.push(q);
 });
 
-console.log(JSON.stringify(lookup.issues, null, 2));
-
 var setViewAttr = v => document.body.setAttribute("data-view", v);
 
 router.onhit = function(e) {
