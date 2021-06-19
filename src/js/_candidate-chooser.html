@@ -2,12 +2,9 @@
   <% data.candidates.forEach(function(c) { %>
   <div class="candidate <%= c.dna ? "did-not-answer" : "" %>">
     <a class="name" href="#/candidates/<%= c.id %>">
-      <img class="mug" src="./assets/mugs/<%= c.mug || "blank.jpg" %>">
+      <img class="mug" src="./assets/mugs/<%= c.mug || "blank.jpg" %>" alt="photo of <%= c.name %>">
       <%= c.name %><% if (c.dna) { %>* <% } %>
     </a>
   </div>
   <% }); %>
 </div>
-<!-- <div class="note">
-  * Did not respond to Seattle Times questionnaire
-</div> -->

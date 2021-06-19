@@ -23,7 +23,7 @@ var onClick = function() {
     <p class="summary">
       ${summary}
     <p class="outgoing">
-    <a target="_blank" href="http://projects.seattletimes.com/2017/mayoral-primary-guide/#/candidates/${id}">Read more in our full primary guide &raquo;</a>
+    <a target="_blank" href="https://projects.seattletimes.com/2017/mayoral-primary-guide/#/candidates/${id}">Read more in our full primary guide &raquo;</a>
   `
 };
 

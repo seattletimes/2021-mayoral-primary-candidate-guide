@@ -1,20 +1,15 @@
 <div class="candidate-view">
-  <!--<nav class="breadcrumb">
-    <a href="#/candidates">▲ Back to candidates</a>
-  </nav>-->
   <div class="header">
     <div class="row">
       <div class="mug-container">
         <div class="mug-padding">
-          <img class="mug" src="./assets/mugs/<%= data.candidate.mug || "blank.jpg" %>">
+          <img class="mug" src="./assets/mugs/<%= data.candidate.mug || "blank.jpg" %>" alt="photo of <%= data.candidate.name %>">
         </div>
       </div>
       <div class="bio-container">
         <h1><%= data.candidate.name %></h1>
         <h2>Age: <%= data.candidate.age %></h2>
         <p>"<%= data.candidate.tweet %>"</p>
-        <!-- <p class="summary"><%= data.candidate.summary %></p> -->
-          <!-- <a href="http://info.kingcounty.gov/kcelections/candidatesonballot/pamphlet/pamphlet.aspx?cid=2851&eid=8#<%= data.candidate.cid %>">King County voter-pamphlet entry</a> -->
 
         <% if (data.candidate.profile) { %>
         <p>
@@ -22,15 +17,6 @@
         <% } %>
       </div>
     </div>
-
-    <!-- <% if (data.candidate.video) { %>
-    <div class="video-container">
-      <iframe src="//players.brightcove.net/1509317113/V1eCvUwO2g_default/index.html?videoId=<%= data.candidate.video %>" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-    </div>
-    <div class="video-caption">
-      We asked leading mayoral candidates to explain &mdash; in less than a minute &mdash; how they are a "typical Seattleite" and how they are "atypical." (Lauren Frohne / The Seattle Times)
-    </div>
-    <% } %> -->
   </div>
 
   <% if (data.candidate.dna) { %>

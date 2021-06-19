@@ -32,7 +32,7 @@
 
   <div class="mobile-table">
     <% if (data.multipleChoice.length > 0) { %>
-      <div class="">
+      <div class="question-view">
         <% data.multipleChoice.forEach(function(q) { %>
         <h2><%= q.text %></h2>
       
@@ -62,7 +62,7 @@
     <% data.candidates.forEach(function(c) { %>
     <li>
       <a class="meta" href="#/candidates/<%= c.id %>">
-        <img src="./assets/mugs/<%= c.mug || "blank.jpg" %>" class="mug">
+        <img src="./assets/mugs/<%= c.mug || "blank.jpg" %>" class="mug" alt="photo of <%= c.name %>">
         <b class="name"><%= c.name %></b>
       </a>
       <blockquote><%= c.questions[q.id] || "Did not answer." %></blockquote>
@@ -76,5 +76,5 @@
   <a href="#/candidates" class="candidates active">Candidates</a>
   <a href="#/issue/PUBLIC%20SAFETY" class="questions">Issues</a>
   <a href="#/about" class="about">About</a>
-  <a href="http://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
+  <a href="https://www.seattletimes.com/tag/seattle-mayoral-race/" target="_blank" class="coverage">More coverage</a>
 </nav>
