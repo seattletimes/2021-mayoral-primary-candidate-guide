@@ -6,17 +6,17 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "2021/seattle-mayor-candidates -primary-mayoral-election-guide"
+      "path": "2021/seattle-mayor-candidates-primary-mayoral-election-guide"
     }
   },
   "title": "Meet Seattle’s 2021 candidates for mayor: a primary election guide",
   "description": "This guide is based on answers candidates provided to a Seattle Times questionnaire in late May. The eight candidates featured in the guide are the leading campaign fundraisers in the mayoral race.",
-  "author": "Daniel Beekman",
+  "author": "Daniel Beekman Emily M Eng",
   "url": "https://projects.seattletimes.com/2021/seattle-mayor-candidates-primary-mayoral-election-guide/",
   "post_id": 13940375,
   "image": "assets/social.jpg",
   "sheets": ["1WnE9RFzfKUQxmHJT6l75Iqtb40Vg82o3a08-S4z06Jw"],
   "docs": [],
   "embedded": false,
-  "production": false
+  "production": true
 }
